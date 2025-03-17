@@ -12,18 +12,17 @@ A command-line tool for upserting CSV data into Supabase tables. This tool makes
 
 ## Installation
 
-Install globally via npm:
+Install locally:
 
 ```bash
-npm install -g supabase-csv-upsert
-```
+# Clone the repository (or download the code)
+git clone <repository-url>
+cd supabase-upsert
 
-Or install from source:
-
-```bash
-git clone https://github.com/yourusername/supabase-csv-upsert.git
-cd supabase-csv-upsert
+# Install dependencies and build
 npm install
+
+# Install globally from local directory
 npm install -g .
 ```
 
